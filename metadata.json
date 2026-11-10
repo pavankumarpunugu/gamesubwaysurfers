@@ -1,0 +1,6 @@
+{
+  "name": "Subway Surfers 3D",
+  "description": "An authentic, high-speed 3D endless runner featuring smooth 3-track navigation, acrobatic jumps and slides, hoverboards, power-ups, and the relentless subway inspector chase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

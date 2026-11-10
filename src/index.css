@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+    font-family: 'Fredoka', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-game {
+  font-family: 'Titan One', cursive, sans-serif;
+}
+.font-subway {
+  font-family: 'Fredoka', system-ui, sans-serif;
+}
+
+/* Custom text stroke for Subway Surfers title style */
+.text-stroke-sm {
+  -webkit-text-stroke: 1.5px #1e1b4b;
+}
+.text-stroke-md {
+  -webkit-text-stroke: 3px #18181b;
+}
+.text-stroke-lg {
+  -webkit-text-stroke: 4px #09090b;
+}
